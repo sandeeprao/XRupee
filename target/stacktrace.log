@@ -2777,3 +2777,327 @@ java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on nu
 java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
 	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
 	at java.lang.Thread.run(Thread.java:745)
+2014-08-11 15:21:39,807 [FileSystemWatcher: files=#134 cl=groovy.lang.GroovyClassLoader@1c9b8ce] ERROR StackTrace  - Full Stack Trace:
+java.lang.NoClassDefFoundError: org/grails/datastore/mapping/query/api/BuildableCriteria
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2688)
+	at java.lang.Class.getDeclaredMethod(Class.java:2115)
+	at org.springsource.loaded.CurrentLiveVersion.runStaticInitializer(CurrentLiveVersion.java:279)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:401)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.grails.datastore.mapping.query.api.BuildableCriteria
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 10 more
+2014-08-11 15:21:39,812 [FileSystemWatcher: files=#134 cl=groovy.lang.GroovyClassLoader@1c9b8ce] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.grails.datastore.mapping.query.api.BuildableCriteria
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2688)
+	at java.lang.Class.getDeclaredMethod(Class.java:2115)
+	at org.springsource.loaded.CurrentLiveVersion.runStaticInitializer(CurrentLiveVersion.java:279)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:401)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-11 15:21:39,812 [FileSystemWatcher: files=#134 cl=groovy.lang.GroovyClassLoader@1c9b8ce] ERROR StackTrace  - Full Stack Trace:
+java.lang.NoClassDefFoundError: org/grails/datastore/mapping/query/api/BuildableCriteria
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2688)
+	at java.lang.Class.getDeclaredMethod(Class.java:2115)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.grails.datastore.mapping.query.api.BuildableCriteria
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 3 more
+2014-08-11 15:21:39,813 [FileSystemWatcher: files=#134 cl=groovy.lang.GroovyClassLoader@1c9b8ce] ERROR StackTrace  - Full Stack Trace:
+java.lang.NoClassDefFoundError: org/grails/datastore/mapping/query/api/BuildableCriteria
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2688)
+	at java.lang.Class.getDeclaredMethod(Class.java:2115)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.grails.datastore.mapping.query.api.BuildableCriteria
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 3 more
+2014-08-11 15:21:39,813 [FileSystemWatcher: files=#134 cl=groovy.lang.GroovyClassLoader@1c9b8ce] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.grails.datastore.mapping.query.api.BuildableCriteria
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2688)
+	at java.lang.Class.getDeclaredMethod(Class.java:2115)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-11 15:21:39,813 [FileSystemWatcher: files=#134 cl=groovy.lang.GroovyClassLoader@1c9b8ce] ERROR StackTrace  - Full Stack Trace:
+java.lang.NoClassDefFoundError: org/grails/datastore/mapping/query/api/BuildableCriteria
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2688)
+	at java.lang.Class.getDeclaredMethod(Class.java:2115)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.grails.datastore.mapping.query.api.BuildableCriteria
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 3 more
+2014-08-11 15:21:39,920 [FileSystemWatcher: files=#134 cl=groovy.lang.GroovyClassLoader@1c9b8ce] ERROR StackTrace  - Full Stack Trace:
+java.lang.NoClassDefFoundError: org/grails/datastore/mapping/query/api/BuildableCriteria
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2688)
+	at java.lang.Class.getDeclaredMethod(Class.java:2115)
+	at org.springsource.loaded.CurrentLiveVersion.runStaticInitializer(CurrentLiveVersion.java:279)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:401)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.grails.datastore.mapping.query.api.BuildableCriteria
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 10 more
+2014-08-11 15:21:39,921 [FileSystemWatcher: files=#134 cl=groovy.lang.GroovyClassLoader@1c9b8ce] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.grails.datastore.mapping.query.api.BuildableCriteria
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2688)
+	at java.lang.Class.getDeclaredMethod(Class.java:2115)
+	at org.springsource.loaded.CurrentLiveVersion.runStaticInitializer(CurrentLiveVersion.java:279)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:401)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-11 15:21:39,921 [FileSystemWatcher: files=#134 cl=groovy.lang.GroovyClassLoader@1c9b8ce] ERROR StackTrace  - Full Stack Trace:
+java.lang.NoClassDefFoundError: org/grails/datastore/mapping/query/api/BuildableCriteria
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2688)
+	at java.lang.Class.getDeclaredMethod(Class.java:2115)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.grails.datastore.mapping.query.api.BuildableCriteria
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 3 more
+2014-08-11 15:21:39,921 [FileSystemWatcher: files=#134 cl=groovy.lang.GroovyClassLoader@1c9b8ce] ERROR StackTrace  - Full Stack Trace:
+java.lang.NoClassDefFoundError: org/grails/datastore/mapping/query/api/BuildableCriteria
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2688)
+	at java.lang.Class.getDeclaredMethod(Class.java:2115)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.grails.datastore.mapping.query.api.BuildableCriteria
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 3 more
+2014-08-11 15:21:39,922 [FileSystemWatcher: files=#134 cl=groovy.lang.GroovyClassLoader@1c9b8ce] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.grails.datastore.mapping.query.api.BuildableCriteria
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2688)
+	at java.lang.Class.getDeclaredMethod(Class.java:2115)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-11 15:21:39,922 [FileSystemWatcher: files=#134 cl=groovy.lang.GroovyClassLoader@1c9b8ce] ERROR StackTrace  - Full Stack Trace:
+java.lang.NoClassDefFoundError: org/grails/datastore/mapping/query/api/BuildableCriteria
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2688)
+	at java.lang.Class.getDeclaredMethod(Class.java:2115)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.grails.datastore.mapping.query.api.BuildableCriteria
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 3 more
+2014-08-11 15:21:39,966 [FileSystemWatcher: files=#134 cl=groovy.lang.GroovyClassLoader@1c9b8ce] ERROR StackTrace  - Full Stack Trace:
+java.lang.NoClassDefFoundError: org/grails/datastore/mapping/query/api/BuildableCriteria
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2688)
+	at java.lang.Class.getDeclaredMethod(Class.java:2115)
+	at org.springsource.loaded.CurrentLiveVersion.runStaticInitializer(CurrentLiveVersion.java:279)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:401)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.grails.datastore.mapping.query.api.BuildableCriteria
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 10 more
+2014-08-11 15:21:39,967 [FileSystemWatcher: files=#134 cl=groovy.lang.GroovyClassLoader@1c9b8ce] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.grails.datastore.mapping.query.api.BuildableCriteria
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2688)
+	at java.lang.Class.getDeclaredMethod(Class.java:2115)
+	at org.springsource.loaded.CurrentLiveVersion.runStaticInitializer(CurrentLiveVersion.java:279)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:401)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-11 15:21:39,967 [FileSystemWatcher: files=#134 cl=groovy.lang.GroovyClassLoader@1c9b8ce] ERROR StackTrace  - Full Stack Trace:
+java.lang.NoClassDefFoundError: org/grails/datastore/mapping/query/api/BuildableCriteria
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2688)
+	at java.lang.Class.getDeclaredMethod(Class.java:2115)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.grails.datastore.mapping.query.api.BuildableCriteria
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 3 more
+2014-08-11 15:21:39,968 [FileSystemWatcher: files=#134 cl=groovy.lang.GroovyClassLoader@1c9b8ce] ERROR StackTrace  - Full Stack Trace:
+java.lang.NoClassDefFoundError: org/grails/datastore/mapping/query/api/BuildableCriteria
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2688)
+	at java.lang.Class.getDeclaredMethod(Class.java:2115)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.grails.datastore.mapping.query.api.BuildableCriteria
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 3 more
+2014-08-11 15:21:39,968 [FileSystemWatcher: files=#134 cl=groovy.lang.GroovyClassLoader@1c9b8ce] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.grails.datastore.mapping.query.api.BuildableCriteria
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2688)
+	at java.lang.Class.getDeclaredMethod(Class.java:2115)
+	at java.lang.Thread.run(Thread.java:745)
+2014-08-11 15:21:39,968 [FileSystemWatcher: files=#134 cl=groovy.lang.GroovyClassLoader@1c9b8ce] ERROR StackTrace  - Full Stack Trace:
+java.lang.NoClassDefFoundError: org/grails/datastore/mapping/query/api/BuildableCriteria
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2688)
+	at java.lang.Class.getDeclaredMethod(Class.java:2115)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.grails.datastore.mapping.query.api.BuildableCriteria
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 3 more
+2014-08-11 15:50:57,963 [Thread-11] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:88)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin.this$2$configureScaffoldingController(ScaffoldingGrailsPlugin.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1030)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springsource.loaded.ri.OriginalClassInvoker.invoke(OriginalClassInvoker.java:47)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1299)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at ScaffoldingGrailsPlugin$_closure3.call(ScaffoldingGrailsPlugin.groovy)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.informObservers(DefaultGrailsPluginManager.java:242)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:732)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:408)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfFileChange(AbstractGrailsPluginManager.java:366)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.informPluginManager(GrailsProjectWatcher.java:226)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.access$400(GrailsProjectWatcher.java:48)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher$1.onNew(GrailsProjectWatcher.java:152)
+	at org.codehaus.groovy.grails.compiler.AbstractDirectoryWatcher.fireOnNew(AbstractDirectoryWatcher.java:76)
+	at org.codehaus.groovy.grails.compiler.PollingDirectoryWatcher.cacheFilesForDirectory(PollingDirectoryWatcher.java:107)
+	at org.codehaus.groovy.grails.compiler.PollingDirectoryWatcher.cacheFilesForDirectory(PollingDirectoryWatcher.java:103)
+	at org.codehaus.groovy.grails.compiler.PollingDirectoryWatcher.cacheFilesForDirectory(PollingDirectoryWatcher.java:103)
+	at org.codehaus.groovy.grails.compiler.PollingDirectoryWatcher.checkForNewFiles(PollingDirectoryWatcher.java:87)
+	at org.codehaus.groovy.grails.compiler.PollingDirectoryWatcher.run(PollingDirectoryWatcher.java:45)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:160)
+	at org.codehaus.groovy.grails.project.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:161)
+2014-08-11 15:50:57,968 [Thread-11] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+2014-08-11 15:50:57,968 [Thread-11] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)
+2014-08-11 15:50:57,968 [Thread-11] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method getPropertyValue() on null object
+	at ScaffoldingGrailsPlugin.configureScaffoldingController(ScaffoldingGrailsPlugin.groovy:120)
+	at ScaffoldingGrailsPlugin$_closure3.doCall(ScaffoldingGrailsPlugin.groovy:105)

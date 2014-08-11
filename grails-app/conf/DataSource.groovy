@@ -13,6 +13,15 @@ hibernate {
     singleSession = true // configure OSIV singleSession mode
 }
 
+grails {
+    mongo {
+        host = "ds033069.mongolab.com"
+        port = 33069
+        username = "xrupee"
+        password = "xrupee"
+        databaseName = "xrupee"
+    }
+}
 // environment specific settings
 environments {
     development {
